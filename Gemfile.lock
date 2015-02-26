@@ -1,0 +1,23 @@
+GIT
+  remote: git://github.com/jeremyevans/roda.git
+  revision: 5fca9a2225c4c79b7984dce8d6754bbccafb18ae
+  specs:
+    roda (2.0.0)
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.0)
+    shotgun (0.9)
+      rack (>= 1.0)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  roda!
+  shotgun
+  tilt
