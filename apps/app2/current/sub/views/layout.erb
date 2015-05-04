@@ -1,7 +1,19 @@
 <html>
-<head><%= assets :css %></head>
-<body>
-<h1>App1</h1>
-
-<p><%= yield %></p>
-</body>
+  <head>
+    <title>App2</title>
+    <%= assets :css %>
+  </head>
+  <body>
+    <h1>App2 layout</h1>
+    <p><%= yield %></p>
+    
+    <hr>
+    <ul>
+      <li><a href="/">Main App</a></li>
+      <li><a href="/app1/">App1</a></li>
+      <li><a href="/app2/">App2</a></li>
+      <li><a href="/app3/">App3</a></li>
+    </ul>
+    
+  </body>
+</html>
