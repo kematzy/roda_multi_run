@@ -1,5 +1,7 @@
 class App1 < Roda
   opts[:root] = File.expand_path(File.dirname(__FILE__))
+  opts[:add_script_name] = true
+  
   plugin :render
   plugin :static, ["/images"]
   plugin :assets, css: 'app.css'
