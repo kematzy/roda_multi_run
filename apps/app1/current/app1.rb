@@ -4,7 +4,7 @@ class App1 < Roda
   
   plugin :render
   plugin :static, ["/images"]
-  plugin :assets, css: 'app.css'
+  plugin :assets, css: 'app.css', js: 'app.js' 
 
   route do |r|
     @app = "App1"

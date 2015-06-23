@@ -1,6 +1,7 @@
 body {
   font-size: 15px;
   color: blue;
-  background: url("/apps/app1/current/public/images/bg.jpg");
+  background-color: yellow;
+/*  background: url("/apps/app1/current/public/images/bg.jpg");*/
   /*  background-size: cover;*/
 }
