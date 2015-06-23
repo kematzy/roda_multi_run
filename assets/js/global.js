@@ -1,0 +1,1 @@
+console.log("Hi from root/assets/js/global.js");
